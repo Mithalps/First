@@ -1,0 +1,97 @@
+/* General Styling */
+body {
+    font-family: 'Georgia', serif; /* Elegant serif font */
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f8f8f8, #eaeaea); /* Subtle gradient background */
+    color: #333; /* Default text color */
+}
+
+h1 {
+    text-align: center;
+    color: #333; /* Dark gray text color */
+}
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px; /* Increased padding for more spacious feel */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Enhanced shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+}
+
+form:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Shadow grows on hover */
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px; /* Slightly reduced margin */
+    color: #555; /* Dark gray label color */
+}
+
+input {
+    width: calc(100% - 20px); /* Adjusted width to account for padding */
+    padding: 10px;
+    margin-bottom: 15px; /* Increased spacing between inputs */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+input:focus {
+    border-color: #007bff; /* Highlight border on focus */
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Table Styling */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    color: #333; /* Dark gray text color */
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
